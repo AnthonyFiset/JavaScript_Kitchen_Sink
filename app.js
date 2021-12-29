@@ -78,3 +78,12 @@ for (let y = 0; y < nameAge.length; y++) {
 
 // Get Length Function
 
+function getLength(word){
+    return word.length;
+};
+
+let wordLength = getLength("Hello World");
+if (wordLength % 2 == 0) {
+    console.log("This world is nice & even!") } else {
+        console.log("This world is an odd place!")
+    }
