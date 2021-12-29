@@ -45,4 +45,36 @@ checkAge(abby.name, abby.age);
 checkAge(james.name, james.age);
 checkAge(john.name, john.age);
 
-// 
+// Array of my favorite Vegetables
+
+let vegetables = ["broccoli", "corn", "asparagus", "tomatoes", "cucumbers"];
+
+for (let x = 0; x < vegetables.length; x++) {
+    console.log(vegetables[x])
+}
+
+// Pet Name & Breed
+
+let bruno = {
+    name: "Bruno",
+    breed: "Frenchie"
+};
+
+console.log(bruno.name, bruno.breed)
+
+// More Friends
+
+let nameAge = [
+    { name: "Anthony", age: 23},
+    { name: "Luis", age: 12},
+    { name: "Felipe", age: 30},
+    { name: "Brian", age: 20},
+    { name: "Felix", age: 11},
+];
+
+for (let y = 0; y < nameAge.length; y++) {
+    checkAge(nameAge[y].name, nameAge[y].age);
+};
+
+// Get Length Function
+
